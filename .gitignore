@@ -1,0 +1,62 @@
+# =========================
+# Build
+# =========================
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# IDE - STS / Eclipse
+# =========================
+.settings/
+bin/
+*.launch
+.springBeans
+
+# =========================
+# IntelliJ
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Spring Boot (SECURE ONLY)
+# =========================
+# ⚠️ 민감 설정만 제외
+src/main/resources/application-secret.yml
+src/main/resources/application-local.yml
+.env
+*.env
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python (FastAPI)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Logs
+# =========================
+*.log
