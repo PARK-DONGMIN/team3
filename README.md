@@ -30,7 +30,7 @@
 | Framework | Spring Boot 3 |
 | 인증 | Spring Security |
 | ORM | JPA |
-| DB | Oracle 18c XE, MySQL |
+| DB | Oracle 18c XE |
 
 ### AI / Model
 | 분류 | 기술 |
@@ -54,7 +54,7 @@
 사용자
   │
   └── Spring Boot (웹 서버)
-        ├── Oracle / MySQL (DB)
+        ├── Oracle (DB)
         ├── FastAPI (AI 서버) ──── NVIDIA H200 GPU
         │     └── Ollama LLM 모델
         └── OpenAI API (이미지 분석, 요약 등)
